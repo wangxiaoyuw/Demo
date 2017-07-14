@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boke.dao.RecordMapper">
+  <resultMap id="BaseResultMap" type="com.boke.pojo.Record">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="rname" jdbcType="VARCHAR" property="rname" />
+    <result column="record" jdbcType="VARCHAR" property="record" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id,rname,record
+  </sql>
+
+  <select id="findList" resultType="com.boke.pojo.Record">
+    SELECT * FROM records
+  </select>
+
+  <insert id="importFile" parameterType="com.boke.pojo.Record">
+     insert into records (id, rname,record)
+    values (#{id,jdbcType=INTEGER}, #{rname,jdbcType=VARCHAR}, #{record,jdbcType=VARCHAR})
+  </insert>
+
+</mapper>

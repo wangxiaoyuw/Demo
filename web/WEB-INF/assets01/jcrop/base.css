@@ -1,0 +1,178 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+fieldset,
+img,
+q,
+i,
+em,
+sub,
+sup,
+strong,
+form,
+input {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: normal;
+  border: 0 none;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+body {
+  font-size: 12px;
+  color: #333;
+  font-family: "Microsoft Yahei", "SimHei", Arial, Tahoma, sans-serif, serif;
+  -webkit-text-size-adjust: none;
+  margin: 0 auto;
+  min-width: 320px;
+  -webkit-appearance: none;
+}
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+}
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+a:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:focus,
+input:focus,
+textarea:focus,
+select {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+input::-ms-clear,
+input::-ms-reveal{
+    display: none;
+}
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+img {
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+/*layout*/
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height:0;
+  font-size:0;
+}
+.clearfix{
+    *zoom:1;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.hide {
+  display: none;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.po-r {
+  position: relative;
+}
+.po-a {
+  position: absolute;
+}
+.po-f {
+  position: fixed;
+}
+i,
+em {
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #999;
+}

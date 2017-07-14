@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boke.dao.UserMapper">
+  <resultMap id="BaseResultMap" type="com.boke.pojo.User">
+    <id property="id" column="u_id"  />
+    <result property="username"  column="username"  />
+    <result property="password"  column="password" />
+    <result property="locked" column="locked"  />
+    <collection property="roleList" ofType="com.boke.pojo.Role">
+        <id property="id" column="id"/>
+        <result property="rolename" column="rolename"/>
+        <result property="roledesc" column="roledesc"/>
+        <result property="available" column="available"/>
+      </collection>
+  </resultMap>
+
+<!--  <select id="getRole" parameterType="int" resultType="com.boke.pojo.Role">
+    SELECT * FROM sys_role r WHERE r.id = #{id}
+  </select>-->
+
+  <sql id="Base_Column_List">
+    id, username, password, locked
+  </sql>
+
+  <select id="getByName" parameterType="string" resultMap="BaseResultMap">
+    select
+    *
+    from sys_user
+    where username = #{username}
+  </select>
+
+  <select id="findRolesByUserId" parameterType="java.lang.Integer" resultType="String">
+    select r.rolename from sys_user u,user_role a,sys_role r WHERE u.u_id = #{id} AND u.u_id = a.userid AND a.roleid = r.id
+  </select>
+
+
+  <select id="findMenuByUserId" parameterType="java.lang.Integer" resultType="String">
+    select p.description FROM sys_perm p,sys_role r,role_prem a ,sys_user u,user_role b WHERE u.u_id = #{id} AND u.u_id = b.userid AND b.roleid = r.id AND r.id = a.roleid AND a.premid = p.id
+  </select>
+
+  <select id="findAllMenuById" parameterType="java.lang.Integer" resultType="com.boke.pojo.Menu">
+  SELECT p.* from sys_perm p,sys_role r,sys_user u,user_role a,role_prem b WHERE u.u_id = #{id} AND u.u_id = a.userid and a.roleid = r.id and r.id = b.roleid and b.premid = p.id
+  </select>
+
+
+  <select id="findAllMenuByRoleId" parameterType="java.lang.Integer" resultType="com.boke.pojo.Menu">
+    SELECT p.* from sys_perm p,sys_role r,role_prem b WHERE  r.id = b.roleid and b.premid = p.id and r.id = #{id}
+  </select>
+
+  <select id="findAllUser" resultMap="BaseResultMap">
+    select * from sys_user
+  </select>
+
+  <select id="getUserCount" resultType="long">
+    SELECT COUNT(*) FROM sys_user
+  </select>
+
+  <select id="selectUserByPage" resultMap="BaseResultMap">
+    select * from sys_user u,user_role a,sys_role r WHERE u.u_id=a.userid and a.roleid = r.id limit #{startPos},#{pageSize}
+  </select>
+
+  <insert id="saveUser" parameterType="com.boke.pojo.User">
+    insert into sys_user (u_id, username,password)
+    values (#{id,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR})
+  </insert>
+
+  <insert id="saveUserAndRole" parameterType="com.boke.pojo.UserAndRole">
+    insert into user_role (userid, roleid
+    )
+    values (#{id}, #{id1}
+    )
+  </insert>
+
+  <delete id="deteleById" parameterType="java.lang.Integer">
+    delete from user_role
+    where userid = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <delete id="deteleById1" parameterType="java.lang.Integer">
+    delete from sys_user
+    where u_id = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <select id="findUserById" resultMap="BaseResultMap">
+    select * from sys_user u,user_role a,sys_role r WHERE u.u_id=a.userid and a.roleid = r.id and u.u_id = #{id}
+  </select>
+
+  <select id="getUserParamCount" resultType="long">
+    SELECT COUNT(*) FROM sys_user where username LIKE CONCAT('%','${condition}','%')
+  </select>
+
+  <select id="selectUserByParamPage" resultMap="BaseResultMap">
+    select * from sys_user u,user_role a,sys_role r where u.u_id=a.userid and a.roleid = r.id and u.username LIKE CONCAT('%','${condition}','%') limit #{startPos},#{pageSize}
+  </select>
+
+  <update id="updateUser">
+    UPDATE sys_user SET
+    username = #{username} WHERE u_id = #{id}
+  </update>
+
+<select id="findAllById" resultType="com.boke.pojo.UserAndRole">
+  SELECT a.* FROM user_role a WHERE a.userid=#{id}
+</select>
+
+  <update id="saveUserPassword">
+    UPDATE sys_user SET
+    password = #{newpassword} WHERE u_id = #{id}
+  </update>
+
+
+</mapper>

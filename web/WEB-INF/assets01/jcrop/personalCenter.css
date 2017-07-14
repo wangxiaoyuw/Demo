@@ -1,0 +1,665 @@
+.footer {
+  width: 100%;
+  background: #333;
+  overflow: hidden;
+}
+.footer .footer_content {
+  overflow: hidden;
+  width: 990px;
+  margin: 0 auto;
+  background: #333;
+  z-index: 9999999999999;
+  color: #fff;
+}
+.footer .footer_content ul {
+  margin: 20px auto;
+  padding: 0 25px;
+  text-align: center;
+  line-height: 12px;
+}
+.footer .footer_content ul li {
+  margin-right: 30px;
+  display: inline-block;
+}
+.footer .footer_content ul li a {
+  display: block;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.footer .footer_content ul li.website a {
+  cursor: default;
+}
+.footer .footer_content p {
+  text-align: center;
+  margin: 20px auto;
+  line-height: 12px;
+}
+.footer .footer_content p .f_location {
+  margin-right: 16px;
+}
+.footer .footer_content div {
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 12px;
+}
+.footer .footer_content div span {
+  margin-right: 16px;
+}
+.footer .footer_content div a {
+  color: #fff;
+  margin: 0 10px;
+}
+body {
+  background: #f7f7f7;
+}
+.header {
+  width: 100%;
+  height: 60px;
+  background: #3a8be4;
+}
+.header .header_con {
+  width: 990px;
+  margin: 0 auto;
+}
+.header .header_con .fl {
+  margin-top: 14px;
+}
+.header .header_con .fr {
+  margin-top: 15px;
+}
+.header .header_con .fr .user_img {
+  width: 34px;
+  height: 34px;
+  position: relative;
+  display: inline-block;
+  margin-right: 12px;
+  float: left;
+}
+.header .header_con .fr .user_img img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+}
+.header .header_con .fr .user_img .photo_mask {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  margin: auto;
+  z-index: 2;
+}
+.header .header_con .fr .user_name {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  line-height: 30px\9;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  position: relative;
+}
+.header .header_con .fr .user_name .name {
+  display: inline-block;
+  padding-bottom: 14px;
+}
+.header .header_con .fr .user_name em {
+  width: 8px;
+  height: 7px;
+  background: url("../img/person_header_traggle.png") no-repeat center;
+  display: inline-block;
+}
+.header .header_con .fr .user_name:hover {
+  cursor: pointer;
+}
+.header .header_con .fr .user_name:hover .message_drop {
+  display: inline-block;
+}
+.header .header_con .fr .user_name .message_drop {
+  display: none;
+  position: absolute;
+  width: 125px;
+  background: #FFFFFF;
+  right: 0;
+  top: 44px;
+  border: 1px solid #333;
+  z-index: 11;
+  border-bottom-width: 4px;
+}
+.header .header_con .fr .user_name .message_drop a {
+  display: block;
+  position: relative;
+  height: 32px;
+  width: 124px;
+  color: #333333;
+  line-height: 32px;
+  line-height: 32px\9;
+  border-bottom: 1px solid #eee;
+}
+.header .header_con .fr .user_name .message_drop a:hover {
+  background: #eee;
+  color: #3a8be4;
+}
+.header .header_con .fr .user_name .message_drop a span {
+  display: block;
+  float: left;
+  height: 32px;
+  margin: 0 14px;
+}
+.header .header_con .fr .user_name .message_drop a i {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  top: 14px;
+  right: 10px;
+  display: inline-block;
+  background: #e43a3a;
+  border-radius: 50%;
+}
+.content {
+  width: 990px;
+  margin: 0 auto;
+  height: 100%;
+}
+.content .left_tab_menu {
+  width: 200px;
+  background: #fff;
+  padding-top: 46px;
+  height: 848px;
+  float: left;
+}
+.content .left_tab_menu ul li {
+  height: 22px;
+  width: 196px;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+  text-align: center;
+  border-left: 4px solid transparent;
+}
+.content .left_tab_menu ul li.message_sys a {
+  position: relative;
+  display: inline-block;
+}
+.content .left_tab_menu ul li.message_sys a em {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background: #e43a3a;
+  right: -6px;
+  top: 4px;
+  border-radius: 3px 3px 3px 3px;
+}
+.content .left_tab_menu ul li.bg {
+  border-left-color: #3a8be4;
+  color: #3a8be4;
+}
+.content .left_tab_menu ul li.bg a {
+  color: #3a8be4;
+}
+.content .left_tab_menu ul li:hover {
+  cursor: pointer;
+  color: #3a8be4;
+  border-left-color: #3a8be4;
+}
+.content .left_tab_menu ul li:hover a {
+  color: #3A8BE4;
+}
+.content .right_content {
+  padding-top: 54px;
+  width: 758px;
+  height: 100%;
+  float: right;
+}
+.content .right_content .account_m .account_tab {
+  height: 21px;
+}
+.content .right_content .account_m .account_tab li {
+  font-size: 16px;
+  color: #333;
+  float: left;
+  margin-right: 26px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_tab li.cur {
+  font-weight: bold;
+}
+.content .right_content .account_m .account_tab li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.content .right_content .account_m .account_con {
+  margin-top: 20px;
+  width: 758px;
+  height: 46px;
+}
+.content .right_content .account_m .account_con .content_per {
+  width: 758px;
+}
+.content .right_content .account_m .account_con .content_per ul {
+  height: 100%;
+}
+.content .right_content .account_m .account_con .content_per ul li {
+  line-height: 46px;
+  line-height: 46px\9;
+  background: #ffffff;
+  padding-left: 20px;
+  position: relative;
+}
+.content .right_content .account_m .account_con .content_per ul li.basic_msg {
+  height: 46px;
+}
+.content .right_content .account_m .account_con .content_per ul li.basic_msg span {
+  font-size: 14px;
+  color: #333333;
+  float: left;
+  display: inline-block;
+}
+.content .right_content .account_m .account_con .content_per ul li.basic_msg a {
+  display: inline-block;
+  font-size: 12px;
+  color: #aaa;
+  position: absolute;
+  right: 5px;
+}
+.content .right_content .account_m .account_con .content_per ul li.basic_msg a:hover {
+  color: #3a8be4;
+  text-decoration: underline;
+}
+.content .right_content .account_m .account_con .content_per ul li.promise_t {
+  height: 40px;
+  line-height: 40px;
+  line-height: 40px\9;
+  background: #fffaf0;
+  color: #e43a3a;
+  font-size: 12px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.user {
+  line-height: 46px;
+  line-height: 46px\9;
+  padding-bottom: 24px;
+  padding-top: 16px;
+  position: relative;
+}
+.content .right_content .account_m .account_con .content_per ul li.user p {
+  height: 46px;
+  font-size: 14px;
+  color: #333;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.user p i {
+  width: 64px;
+  font-size: 14px;
+  display: block;
+  float: left;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.user p strong {
+  display: block;
+  float: left;
+  margin: 0 6px;
+}
+.content .right_content .account_m .account_con .content_per ul li.user p span {
+  display: block;
+  float: left;
+}
+.content .right_content .account_m .account_con .content_per ul li.user .biao_bin {
+  display: inline-block;
+  position: absolute;
+  top: 70px;
+  right: 72px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_account {
+  margin-top: 20px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_account p a {
+  font-size: 14px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  color: #333;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_safe {
+  background: #fffaf0;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_safe p {
+  color: #e43a3a;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone {
+  line-height: 46px;
+  line-height: 46px\9;
+  padding-top: 16px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone p {
+  height: 46px;
+  font-size: 14px;
+  color: #333;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone p i {
+  width: 64px;
+  font-size: 14px;
+  display: inline-block;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone p span {
+  margin-left: 100px;
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  line-height: 22px\9;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #dadada;
+  background: #eee;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done {
+  line-height: 46px;
+  line-height: 46px\9;
+  line-height: 40px;
+  padding-top: 16px;
+  padding-top: 0;
+  padding-bottom: 34px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done p {
+  height: 46px;
+  font-size: 14px;
+  color: #333;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done p i {
+  width: 64px;
+  font-size: 14px;
+  display: inline-block;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done p span {
+  margin-left: 100px;
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  line-height: 22px\9;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #dadada;
+  background: #eee;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done p {
+  height: 40px;
+  font-size: 14px;
+  color: #333;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done p i {
+  width: 64px;
+  font-size: 14px;
+  display: inline-block;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done p span {
+  margin-left: 100px;
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #dadada;
+  background: #eee;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done strong {
+  float: left;
+  display: block;
+  margin: 0 6px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone_done i {
+  display: inline-block;
+  float: left;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_society {
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_society p i {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_society p img {
+  display: block;
+  float: left;
+  margin-top: 16px;
+  border-radius: 50%;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_society p span {
+  font-size: 14px;
+  margin-left: 8px;
+  display: block;
+  float: left;
+  color: #333;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  margin-top: 8px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_account {
+  margin-top: 20px;
+}
+.content .right_content .account_m .account_con .content_per ul li.sys_msg {
+  color: #aaa;
+  font-size: 14px;
+}
+.content .right_content .account_m .account_con .content_per ul li.sys_msg p {
+  height: 30px;
+  line-height: 30px;
+  line-height: 30px\9;
+}
+.content .right_content .account_m .account_con .content_per ul li.sys_msg_do {
+  font-size: 14px;
+}
+.content .right_content .account_m .account_con .content_per ul li.sys_msg_do p {
+  height: 30px;
+  line-height: 30px;
+  line-height: 30px\9;
+  color: #aaa;
+}
+.content .right_content .account_m .account_con .content_per ul li.sys_msg_do p span {
+  display: inline-block;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_phone {
+  padding-top: 28px;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_phone p i {
+  font-size: 14px;
+  margin-right: 6px;
+  color: #333;
+  display: block;
+  width: 64px;
+  float: left;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_phone p input {
+  width: 204px;
+  height: 32px;
+  padding-left: 14px;
+  margin-left: 16px;
+  border: 1px solid #dadada;
+  line-height: 32px;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_phone p em {
+  display: none;
+  width: 16px;
+  height: 16px;
+  left: 306px;
+  top: 44px;
+  position: absolute;
+  background: url(../img/clear_input.png) no-repeat center;
+  z-index: 3;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_phone p em:hover {
+  cursor: pointer;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code {
+  padding-top: 8px;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code p i {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  line-height: 50px;
+  line-height: 50px\9;
+  float: left;
+  width: 64px;
+  margin-right: 6px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  text-align: justify;
+  text-align-last: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code p strong {
+  float: left;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code p .input_msg_input {
+  width: 84px;
+  height: 30px;
+  padding-left: 14px;
+  margin-left: 18px;
+  border: 1px solid #dadada;
+  float: left;
+  margin-top: 8px;
+  line-height: 30px;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code p .get_msg_code {
+  width: 110px;
+  height: 32px;
+  margin-left: 10px;
+  float: left;
+  margin-top: 8px;
+  background: #3a8be4;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+  color: #ffffff;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code p .wait {
+  background: #dadada;
+}
+.content .right_content .account_m .account_con .content_per ul li.input_msg_code p .wait:hover {
+  cursor: default;
+}
+.content .right_content .account_m .account_con .content_per ul li.error_msg {
+  display: none;
+  font-size: 12px;
+  background: #fff;
+  line-height: 16px;
+  line-height: 16px\9;
+  padding-left: 108px;
+  padding-top: 4px;
+}
+.content .right_content .account_m .account_con .content_per ul li.error_msg p {
+  color: #e43a3a;
+  position: relative;
+  padding-left: 19px;
+}
+.content .right_content .account_m .account_con .content_per ul li.error_msg p i {
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  left: 0px;
+  top: 2px;
+  vertical-align: -1px;
+  display: inline-block;
+  background: url("../img/error_msg.png") no-repeat center;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone {
+  line-height: 40px;
+  padding-top: 16px;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone p {
+  height: 40px;
+  font-size: 14px;
+  color: #333;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone p i {
+  width: 64px;
+  font-size: 14px;
+  display: inline-block;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  -moz-text-align-last: justify;
+}
+.content .right_content .account_m .account_con .content_per ul li.bind_phone p span {
+  margin-left: 100px;
+  width: 58px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #dadada;
+  background: #eee;
+  color: #333;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.step {
+  padding: 12px 0 42px 94px;
+}
+.content .right_content .account_m .account_con .content_per ul li.step input {
+  width: 98px;
+  height: 32px;
+  margin-left: 16px;
+  color: #fff;
+  background: #dadada;
+  font-size: 14px;
+  font-family: "PingFangSC-Regular", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", sans-serif;
+}
+.content .right_content .account_m .account_con .content_per ul li.step input:hover {
+  cursor: default;
+}
+.content .right_content .account_m .account_con .content_per ul li.step .active {
+  background-color: #ffa903;
+}
+.content .right_content .account_m .account_con .content_per ul li.step .active:hover {
+  cursor: pointer;
+}

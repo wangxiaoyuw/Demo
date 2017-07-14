@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.boke.dao.RoleMapper">
+  <resultMap id="RoleResultMap" type="com.boke.pojo.Role">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="rolename" jdbcType="VARCHAR" property="rolename" />
+    <result column="roledesc" jdbcType="VARCHAR" property="roledesc" />
+    <result column="available" jdbcType="VARCHAR" property="available" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, rolename, roledesc,available
+  </sql>
+
+  <select id="getRole" parameterType="int" resultType="com.boke.pojo.Role">
+    SELECT * FROM sys_role WHERE id = #{id}
+  </select>
+
+  <select id="findAllRole" resultMap="RoleResultMap">
+    SELECT * FROM sys_role
+  </select>
+
+  <select id="findRolesByRolename" resultMap="RoleResultMap">
+    SELECT * FROM sys_role WHERE sys_role.rolename = #{rolename}
+  </select>
+
+  <select id="findRolesByUserId" resultMap="RoleResultMap">
+    SELECT * FROM sys_role WHERE sys_role.id = #{id}
+  </select>
+
+  <insert id="saveTree" parameterType="com.boke.pojo.RoleAndPrem">
+    insert into role_prem (roleid, premid)
+    values (#{roleid}, #{premid})
+  </insert>
+
+  <delete id="deleteByRoleId" parameterType="java.lang.Integer">
+    delete from role_prem
+    where roleid = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <delete id="deleteRoleByRoleId" parameterType="java.lang.Integer">
+    delete from sys_role
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <delete id="deleteRoleByRoleId2" parameterType="java.lang.Integer">
+    delete from user_role
+    where roleid = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <insert id="saveRole" parameterType="com.boke.pojo.Role">
+    insert into sys_role (rolename, roledesc,available)
+    values (#{rolename}, #{roledesc},#{a})
+  </insert>
+
+  <select id="findRolesByRoleId" resultMap="RoleResultMap">
+    SELECT * FROM sys_role WHERE sys_role.id = #{id}
+  </select>
+
+  <update id="updateRole">
+    UPDATE sys_role SET
+    rolename = #{rolename},roledesc = #{roledesc},available = #{a} WHERE id = #{id}
+  </update>
+
+</mapper>
