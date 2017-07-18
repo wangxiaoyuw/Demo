@@ -183,7 +183,7 @@ public class UserController {
 	@RequestMapping("/delete/{id}")
 	public String detele(@PathVariable("id")Integer id,Model model){
 		userService.deteleById(id);
-        userService.deteleById1(id);
+        userService.deteleUandRById(id);
 		return "success";
 	}
 

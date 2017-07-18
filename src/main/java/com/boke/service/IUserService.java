@@ -101,8 +101,8 @@ public  class IUserService {
 		userMapper.deteleById(id);
 	}
 
-	public void deteleById1(Integer id) {
-		userMapper.deteleById1(id);
+	public void deteleUandRById(Integer id) {
+		userMapper.deteleUandRById(id);
 	}
 
 	public User findUserById(Integer id) {

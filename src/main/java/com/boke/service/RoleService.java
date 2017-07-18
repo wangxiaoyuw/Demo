@@ -57,7 +57,7 @@ public class RoleService {
         roleMapper.deleteRoleByRoleId(id);
     }
 
-    public void deleteByRoleId2(Integer id) {
-        roleMapper.deleteRoleByRoleId2(id);
+    public void deleteRoleandUserByRoleId(Integer id) {
+        roleMapper.deleteRoleandUserByRoleId(id);
     }
 }

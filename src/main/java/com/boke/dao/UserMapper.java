@@ -36,7 +36,7 @@ public interface UserMapper {
 
     void deteleById(Integer id);
 
-    void deteleById1(Integer id);
+    void deteleUandRById(Integer id);
 
     User findUserById(Integer id);
 

@@ -42,7 +42,7 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
 
-  <delete id="deleteRoleByRoleId2" parameterType="java.lang.Integer">
+  <delete id="deleteRoleandUserByRoleId" parameterType="java.lang.Integer">
     delete from user_role
     where roleid = #{id,jdbcType=INTEGER}
   </delete>

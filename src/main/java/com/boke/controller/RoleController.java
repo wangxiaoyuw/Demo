@@ -104,7 +104,7 @@ public class RoleController {
     @RequestMapping("/delete/{id}")
     public String delete(@PathVariable("id")Integer id,Model model){
         roleService.deleteByRoleId(id);
-        roleService.deleteByRoleId2(id);
+        roleService.deleteRoleandUserByRoleId(id);
         roleService.deleteRoleByRoleId(id);
         return "success";
     }

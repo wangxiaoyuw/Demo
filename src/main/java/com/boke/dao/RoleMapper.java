@@ -31,5 +31,5 @@ public interface RoleMapper {
 
     void deleteRoleByRoleId(Integer id);
 
-    void deleteRoleByRoleId2(Integer id);
+    void deleteRoleandUserByRoleId(Integer id);
 }
