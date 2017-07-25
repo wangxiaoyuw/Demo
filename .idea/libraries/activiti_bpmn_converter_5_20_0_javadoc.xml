@@ -1,0 +1,78 @@
+<component name="libraryTable">
+  <library name="activiti-bpmn-converter-5.20.0-javadoc">
+    <CLASSES>
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-converter-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-layout-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-model-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-camel-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-cdi.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-common-rest-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-crystalball-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-cxf-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-diagram-rest-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-engine-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-explorer-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-image-generator-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-jmx-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-json-converter-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-ldap-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-modeler-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-mule-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-osgi-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-process-validation-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-rest-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-simple-workflow-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-spring-5.20.0.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/joda-time-2.7.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/mybatis-3.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-converter-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-layout-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-model-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-camel-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-cdi-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-common-rest-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-crystalball-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-cxf-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-diagram-rest-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-engine-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-explorer-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-image-generator-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-jmx-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-json-converter-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-ldap-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-modeler-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-mule-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-osgi-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-process-validation-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-rest-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-simple-workflow-5.20.0-javadoc.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-spring-5.20.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-converter-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-layout-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-bpmn-model-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-camel-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-cdi-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-common-rest-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-crystalball-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-cxf-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-diagram-rest-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-engine-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-explorer-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-image-generator-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-jmx-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-json-converter-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-ldap-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-modeler-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-mule-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-osgi-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-process-validation-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-rest-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-simple-workflow-5.20.0-sources.jar!/" />
+      <root url="jar://E:/BaiduNetdiskDownload/工作流/workflow/web/WEB-INF/lib/activiti-spring-5.20.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

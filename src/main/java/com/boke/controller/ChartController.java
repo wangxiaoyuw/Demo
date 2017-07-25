@@ -18,4 +18,6 @@ public class ChartController {
         model.addAttribute("aa",11);
         return "echarts";
     }
+
+
 }

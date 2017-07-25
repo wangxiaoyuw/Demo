@@ -20,6 +20,11 @@
 <script src="assets01/js/jquery.min.js"></script>
 <script src="assets01/js/app.js"></script>
   <script src="../assets01/js/qrcode.js"></script>
+  <script type="text/javascript" src="../ueditor/ueditor.all.js"></script>
+
+  <script type="text/javascript" src="../ueditor/ueditor.config.js"></script>
+
+  <script type="text/javascript" src="../ueditor/lang/zh-cn/zh-cn.js"></script>
 </head>
 <body>
 <header class="am-topbar admin-header">
@@ -33,6 +38,9 @@
 </li>
       <li class="kuanjie">
         <a href="/pay">二维码支付</a>
+      </li>
+      <li class="kuanjie">
+        <a href="/news/ueditor">文本编辑</a>
       </li>
  <li class="kuanjie">
    <a href="/user/updateSecret">修改密码</a>
@@ -328,5 +336,19 @@
             }
         })
     }
+
+
+    //实例化UEditor
+
+    var ue = UE.getEditor('myEditor');
+
+    function getValue(){
+
+        var value = ue.getContent();
+
+        alert(value);
+
+    }
+
 
 </script>
